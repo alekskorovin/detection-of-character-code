@@ -1,0 +1,10 @@
+<h4>Please enter your text below:</h4>
+<input class="input" type="text" ng-model="field.input" my-symbols />
+<h5>HTML Code is below of each letter</h5>
+<label><input type="checkbox" ng-model="showOnlyNotAsciiSymbols">Show not ASCII symbols only</label>
+<ul class="letters">
+    <li ng-repeat="symbol in symbols | filter:asciiFilter" class="repeat-animation ascii-{{ symbol.isAscii }}">
+        <input class="symbol" type="text" value="{{ symbol.letter }}" select-on-click />
+        <div class="code">&#{{ symbol.code }};</div>
+    </li>
+</ul>

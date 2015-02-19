@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    font-size: 14px;
+}
+body * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,
+main {
+    padding: 20px;
+}
+.code {
+    background: #eee;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 0 auto;
+}
+.symbol {
+    border: 0;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+}
+.ascii-true .code {
+    background: #8ccfb2;
+}
+.input {
+    font-size: 20px;
+    width: 100%;
+    border-width: 2px;
+}
+.letters,
+.letters li {
+    margin: 0;
+    padding: 0;
+}
+.letters {
+    margin: 10px 0 0;
+    font-size: 0;
+}
+.letters li {
+    text-align: center;
+    margin: 10px 10px 0 0;
+    outline: solid 1px #ccc;
+    font-size: 36px;
+    display: inline-block;
+}
