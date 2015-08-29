@@ -12,7 +12,7 @@ Also you can use a filter to show only non-ASCII characters.
 
 ### Start server
 
-Just run command:
+Just run nodeJS script:
 
 ``node server.js``
 
@@ -20,6 +20,6 @@ and open browser with URL:
 
 ``http://localhost:8080/``
 
-Applicationn should redirect you to:
+Application should redirect you to:
 
 ``http://localhost:8080/#/``
